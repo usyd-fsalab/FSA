@@ -1,0 +1,36 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+%\usepackage[default]{droidserif}
+\usepackage[rm]{roboto}
+\usepackage[T1]{fontenc}
+
+\usetikzlibrary{shapes.geometric}
+
+\definecolor{logocol}{cmyk}{0,0,0,0}
+
+
+\begin{document}
+\begin{tikzpicture}[auto, thick]
+
+\node[logocol] at (1,0) [rectangle,draw] (chip) {FSA};
+        
+\node[logocol] at (0.2,0) [circle, draw, inner sep = 1.75pt] (left) {};
+\node[logocol] at (0.3,0.4) [circle,draw, inner sep = 1pt] (top_left) {};
+\node[logocol] at (0.4,-0.4) [circle, draw, inner sep = 1.3pt] (bottom_left) {};
+
+
+\node[logocol] at (1.8,0) [circle,draw, inner sep = 1.75pt] (right) {};
+\node[logocol] at (1.6,0.4) [circle,draw, inner sep = 1.3pt] (top_right) {};
+\node[logocol] at (1.7,-0.4) [circle,draw, inner sep = 1pt] (bottom_right) {};
+
+\draw[logocol] (chip) |- (top_left);
+\draw[logocol] ([xshift=4pt]chip) -- (left);
+\draw[logocol] ([yshift=-4pt]chip) -| (bottom_left);
+
+\draw[logocol] (chip) -- (right);
+\draw[logocol] ([yshift=4pt]chip) -| (top_right);
+\draw[line width=0.75, logocol] ([xshift=4pt]chip) |- (bottom_right);
+
+
+\end{tikzpicture}
+\end{document}
