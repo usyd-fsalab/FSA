@@ -2734,13 +2734,13 @@ input[type="radio"] + label:before {
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	postiion: relative;
+	position: relative;
 	margin: -2.5em 0 0 -2.5em;
 }
 
 .circular_image {
-	width: 20rem !important;
-	height: 20rem !important;
+	width: 18rem !important;
+	height: 18rem !important;
 	border-radius: 50% !important;
 	box-shadow: 5px 10px 20px 5px rgba(21, 24, 23, 0.44) !important;
 	display: inline-block !important;
@@ -2774,8 +2774,9 @@ body:not(.is-touch) .circular_image article:hover > .image {
 
 .avatar-text {
 	text-align: center;
-	margin: 0 1em 4rem 0;
+	margin: 0 0.5em 4rem 0.5em;
 	font-size: 22px;
+	text-align: center;
 	/*position: absolute;
 	margin-left: -50px;
 	top: 50%;
@@ -3024,7 +3025,7 @@ button:disabled,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	position: relative;
-	margin: -2.5em 0 0 -2.5em;
+	margin: -2.5em 0 0 0;
 	text-align: center;
 	justify-content: center;
 }
@@ -3036,7 +3037,7 @@ button:disabled,
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	position: relative;
 	width: calc(45% - 2.5em);
-	margin: 2.5em 0 0 2.5em;
+	margin: 2.5em 1.25em 0 1.25em;
 }
 
 .tile-blocks article > .image {
@@ -3233,12 +3234,12 @@ body.is-touch .tile-blocks article .content {
 @media screen and (max-width: 1280px) {
 
 	.tile-blocks {
-		margin: -2.25em 0 0 -2.25em;
+		margin: 0;
 	}
 
 	.tile-blocks article {
 		width: calc(50% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
+		margin: 1.25em;
 	}
 
 }
@@ -3246,12 +3247,12 @@ body.is-touch .tile-blocks article .content {
 @media screen and (max-width: 980px) {
 
 	.tile-blocks {
-		margin: -2.5em 0 0 -2.5em;
+		margin: 0;
 	}
 
 	.tile-blocks article {
 		width: calc(50% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
+		margin: 1.25em;
 	}
 
 }
@@ -3259,12 +3260,12 @@ body.is-touch .tile-blocks article .content {
 @media screen and (max-width: 736px) {
 
 	.tile-blocks {
-		margin: -1.25em 0 0 -1.25em;
+		margin: 0;
 	}
 
 	.tile-blocks article {
-		width: calc(50% - 1.25em);
-		margin: 1.25em 0 0 1.25em;
+		width: calc(50% - 1.2em);
+		margin: 0.6em;
 	}
 
 	.tile-blocks article:hover > .image {
@@ -3301,7 +3302,7 @@ body.is-touch .tile-blocks article .content {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	position: relative;
-	margin: -2.5em 0 0 -2.5em;
+	margin: -2.5em 0 0 0;
 	justify-content: center;
 }
 
@@ -3312,7 +3313,8 @@ body.is-touch .tile-blocks article .content {
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	position: relative;
 	width: calc(30% - 2.5em);
-	margin: 2.5em 0 0 2.5em;
+	margin: 2.5em 0 0 0;
+	text-align: center;
 }
 
 .tile-center article > .image {
@@ -3444,7 +3446,7 @@ body.is-touch .tile-blocks article .content {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/tile-center/ml4.png");
 	background-size: cover;
 	background-position: center center;
-	opacity = 0.8;
+	opacity: 0.8;
 }
 
 .tile-center article.style3 > .image:before {
@@ -3506,12 +3508,12 @@ body.is-touch .tile-center article .content {
 @media screen and (max-width: 1280px) {
 
 	.tile-center {
-		margin: -2.5em 0 0 -2.5em;
+		margin: -2.5em 0 0 0;
 	}
 
 	.tile-center article {
 		width: calc(35% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
+		margin: 1.25em;
 	}
 
 }
@@ -3519,12 +3521,12 @@ body.is-touch .tile-center article .content {
 @media screen and (max-width: 980px) {
 
 	.tile-center {
-		margin: -2.5em 0 0 -2.5em;
+		margin: -2.5em 0 0 0;
 	}
 
 	.tile-center article {
 		width: calc(50% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
+		margin: 1.25em;
 	}
 
 	.tile-center .article-avatar-center {
@@ -3539,12 +3541,12 @@ body.is-touch .tile-center article .content {
 @media screen and (max-width: 736px) {
 
 	.tile-center {
-		margin: -1.25em 0 0 -1.25em;
+		margin: -1.25em 0 0 0;
 	}
 
 	.tile-center article {
-		width: calc(50% - 1.25em);
-		margin: 1.25em 0 0 1.25em;
+		width: calc(50% - 1.2em);
+		margin: 0.6em;
 	}
 
 	.tile-center article:hover > .image {
@@ -3580,7 +3582,7 @@ body.is-touch .tile-center article .content {
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	position: relative;
-	margin: -2.5em 0 0 -2.5em;
+	margin: -2.5em 0 0 0;
 	text-align: center;
 	justify-content: center;
 }
@@ -3592,7 +3594,7 @@ body.is-touch .tile-center article .content {
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	position: relative;
 	width: calc(30% - 2.5em);
-	margin: 2.5em 0 0 2.5em;
+	margin: 2.5em 1.25em 0 1.25em;
 }
 
 .tiles article > .image {
@@ -3724,7 +3726,7 @@ body.is-touch .tile-center article .content {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../images/tiles/ml4.png");
 	background-size: cover;
 	background-position: center center;
-	opacity = 0.8;
+	opacity: 0.8;
 }
 
 .tiles article.style3 > .image:before {
@@ -3799,12 +3801,12 @@ body.is-touch .tiles article .content {
 @media screen and (max-width: 1280px) {
 
 	.tiles {
-		margin: -2.5em 0 0 -2.5em;
+		margin: -2.5em 0 0 0;
 	}
 
 	.tiles article {
 		width: calc(50% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
+		margin: 1.25em;
 	}
 
 	.tiles .article-avatar-center {
@@ -3819,12 +3821,12 @@ body.is-touch .tiles article .content {
 @media screen and (max-width: 736px) {
 
 	.tiles {
-		margin: -1.25em 0 0 -1.25em;
+		margin: -1.25em 0 0 0;
 	}
 
 	.tiles article {
-		width: calc(50% - 1.25em);
-		margin: 1.25em 0 0 1.25em;
+		width: calc(50% - 1.2em);
+		margin: 0.6em;
 	}
 
 	.tiles article:hover > .image {
