@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>FSA Lab RSS Feed</title>
+  <link>https://www.fsa.io</link>
+  <description>Future Systems Architecture Laboratory</description>
+  <item>
+    <title>Google Brain Collaboration</title>
+    <description>Collaborated paper with Google Brain has been accepted to MLSys 2022. Congrats to the team! It is Donglin's first leading author paper.</description>
+  </item>
+  <item>
+    <title>SOAR Fellowship</title>
+    <description>Dr. Shuaiwen Leon Song is awarded with SOAR faculty fellowship. Thank you to USYD for the great support towards our research.</description>
+  </item>
+</channel>
+</rss>

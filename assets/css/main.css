@@ -4357,6 +4357,21 @@ body.is-menu-visible #menu .close {
 /* News frame */
 .news-frame {
 	width: 100%;
-	height: 20rem;
+	height: 25rem;
+}
 
+
+.pub-entry {
+	float: left;
+}
+
+.pub-entry a {
+	font-weight: bold;
+}
+
+.pub-entry img {
+	width: 12em;
+	padding: 0.5em;
+	display: inline;
+	float: left;
 }
