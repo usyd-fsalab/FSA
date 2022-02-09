@@ -4375,3 +4375,8 @@ body.is-menu-visible #menu .close {
 	display: inline;
 	float: left;
 }
+
+.post-date {
+	font-style: italic;
+	color: gray;
+}
