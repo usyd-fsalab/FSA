@@ -2751,6 +2751,20 @@ input[type="radio"] + label:before {
 	width: 100%;
 }
 
+.circular_image_small {
+	width: 15rem !important;
+	height: 15rem !important;
+	border-radius: 50% !important;
+	box-shadow: 5px 10px 20px 5px rgba(21, 24, 23, 0.44) !important;
+	display: inline-block !important;
+	overflow: hidden !important;
+}
+
+.circular_image_small img{
+	width: 100%;
+}
+
+
 /* .circular_image_center { */
 /* 	width: 20rem !important; */
 /* 	height: 20rem !important; */
