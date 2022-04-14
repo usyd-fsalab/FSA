@@ -3195,7 +3195,7 @@ button:disabled,
 }
 
 .tile-blocks article.style4 > .image:before {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tiles/hpc4.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tiles/hpc5.png");
 	background-size: cover;
 }
 
